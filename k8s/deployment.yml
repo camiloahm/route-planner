@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {APP_NAME}
+  namespace: {NAMESPACE}
+spec:
+  replicas: 2 
+  selector:
+    matchLabels:
+      app: {APP_NAME}
+  template:
+    metadata:
+      labels:
+        app: {APP_NAME}
+      annotations:
+        prometheus.io/scrape: 'true'
+    spec:
+      containers:
+      - image: {CONTAINER_IMAGE} 
+        name: {APP_NAME}
+        ports:
+        - containerPort: 80
+          name: {APP_NAME}
+        env:
+        - name: APP_GOOGLE_APIKEY
+          valueFrom:
+            secretKeyRef:
+              name: routeplanner
+              key: google_apikey
+        - name: SPRING_DATA_MONGODB_URI
+          valueFrom:
+            secretKeyRef:
+              name: routeplanner
+              key: mongodb_uri
+        - name: MANAGEMENT_METRICS_EXPORT_STATSD_HOST
+          value: dogstatsd.datadog
+        - name: MANAGEMENT_METRICS_EXPORT_STATSD_PORT
+          value: "8125"
+        - name: MANAGEMENT_METRICS_EXPORT_STATSD_FLAVOR
+          value: datadog
+        - name: DD_SERVICE_NAME
+          value: routeplanner
+        - name: DD_AGENT_HOST
+          value: dogstatsd.datadog
+        - name: DD_AGENT_PORT
+          value: "8126"
+        readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 30
+            periodSeconds: 5
+        livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 45
+            periodSeconds: 5
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "200m"
+          limits:
+            memory: "1024Mi"
+            cpu: "1000m"

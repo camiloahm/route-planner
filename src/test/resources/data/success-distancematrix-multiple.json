@@ -1,0 +1,114 @@
+{
+  "destination_addresses": [
+    "Beukenlaan 143, 5616 VD Eindhoven, Netherlands"
+  ],
+  "origin_addresses": [
+    "Schootsestraat 50, 5616 RE Eindhoven, Netherlands",
+    "Stationsplein 26, 5611 BC Eindhoven, Netherlands",
+    "Vestdijk 39a, 5611 AC Eindhoven, Netherlands",
+    "Stratumsedijk 61, 5611 NC Eindhoven, Netherlands",
+    "Eikenstraat 14, 5651 CN Eindhoven, Netherlands",
+    "hovdstugutua 157, 2450 Rena, Norway",
+    "66.405389,59.108248"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "1.2 km",
+            "value": 1202
+          },
+          "duration": {
+            "text": "4 mins",
+            "value": 235
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "3.2 km",
+            "value": 3190
+          },
+          "duration": {
+            "text": "10 mins",
+            "value": 580
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "6.3 km",
+            "value": 6325
+          },
+          "duration": {
+            "text": "15 mins",
+            "value": 890
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "4.1 km",
+            "value": 4069
+          },
+          "duration": {
+            "text": "9 mins",
+            "value": 548
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "1.4 km",
+            "value": 1368
+          },
+          "duration": {
+            "text": "5 mins",
+            "value": 293
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "1,476 km",
+            "value": 1476159
+          },
+          "duration": {
+            "text": "16 hours 23 mins",
+            "value": 58961
+          },
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "status": "ZERO_RESULTS"
+        }
+      ]
+    }
+  ],
+  "status": "OK"
+}

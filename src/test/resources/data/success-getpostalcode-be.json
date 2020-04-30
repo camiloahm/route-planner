@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "3",
+          "short_name": "3",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Grachtstraat",
+          "short_name": "Grachtstraat",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Overpelt",
+          "short_name": "Overpelt",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Limburg",
+          "short_name": "LI",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Vlaanderen",
+          "short_name": "Vlaanderen",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Belgium",
+          "short_name": "BE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "3900",
+          "short_name": "3900",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Grachtstraat 3, 3900 Overpelt, Belgium",
+      "geometry": {
+        "location": {
+          "lat": 51.2070619,
+          "lng": 5.4101399
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 51.2084108802915,
+            "lng": 5.411488880291502
+          },
+          "southwest": {
+            "lat": 51.2057129197085,
+            "lng": 5.408790919708498
+          }
+        }
+      },
+      "place_id": "ChIJ4WD8L0crwUcRpAYD3eE9qg4",
+      "plus_code": {
+        "compound_code": "6C46+R3 Overpelt, Belgium",
+        "global_code": "9F376C46+R3"
+      },
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "status": "OK"
+}

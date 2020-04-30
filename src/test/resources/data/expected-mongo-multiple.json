@@ -1,0 +1,70 @@
+[
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 51.446325,
+      "originLongitude": 5.45327
+    },
+    "pathDistanceInMeters": 1202.0,
+    "distanceTimeInSeconds": 235
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 51.441701,
+      "originLongitude": 5.480412
+    },
+    "pathDistanceInMeters": 3190.0,
+    "distanceTimeInSeconds": 580
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 51.440091,
+      "originLongitude": 5.480412
+    },
+    "pathDistanceInMeters": 6325.0,
+    "distanceTimeInSeconds": 890
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 51.431704,
+      "originLongitude": 5.485379
+    },
+    "pathDistanceInMeters": 4069.0,
+    "distanceTimeInSeconds": 548
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 51.448236,
+      "originLongitude": 5.448374
+    },
+    "pathDistanceInMeters": 1368.0,
+    "distanceTimeInSeconds": 293
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 61.271044,
+      "originLongitude": 11.301653
+    },
+    "pathDistanceInMeters": 1476159.0,
+    "distanceTimeInSeconds": 58961
+  },
+  {
+    "distanceTimeID": {
+      "destinationLatitude": 51.441556,
+      "destinationLongitude": 5.450361,
+      "originLatitude": 66.405389,
+      "originLongitude": 59.108248
+    }
+  }
+]

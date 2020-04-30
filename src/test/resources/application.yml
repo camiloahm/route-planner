@@ -1,0 +1,17 @@
+app:
+  mockedServer:
+    url: "http://127.0.0.1"
+    port: 8543
+  google:
+
+    # number of retries to google API in case o failed
+    maxRetries: 1
+
+    # maximum requests per second allowed to google api
+    queryRateLimit: 1
+
+    # timeout to google
+    timeoutInSeconds: 10
+
+    # Google APIKey
+    apiKey: "AIza..."

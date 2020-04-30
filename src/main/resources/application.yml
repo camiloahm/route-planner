@@ -1,0 +1,27 @@
+app:
+  google:
+
+    # number of retries to google API in case o failed
+    maxRetries: 1
+
+    # maximum requests per second allowed to google api
+    queryRateLimit: 40
+
+    # timeout to google
+    timeoutInSeconds: 4
+
+    # Google APIKey
+    apiKey: ""
+
+spring:
+  application:
+    name: routeplanner
+  data:
+    mongodb:
+      uri: insertOneValid
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health"

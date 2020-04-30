@@ -1,0 +1,7 @@
+Dockerfile
+kubernetes
+k8s_deployment.yml
+project
+package-lock.json
+.swp
+docker-compose.yml

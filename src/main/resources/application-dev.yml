@@ -1,0 +1,31 @@
+app:
+  google:
+
+    # number of retries to google API in case o failed
+    maxRetries: 1
+
+    # maximum requests per second allowed to google api
+    queryRateLimit: 1
+
+    # timeout to google
+    timeoutInSeconds: 10
+
+    # Google APIKey
+    apiKey: "AIzaSyC9ngwSIqLwkLuOOEmdZg8GoZyfqDfm2RY"
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/routeplanner
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      statsd:
+        host: localhost
+        port: 8125

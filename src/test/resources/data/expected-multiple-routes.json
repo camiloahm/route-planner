@@ -1,0 +1,74 @@
+[
+  {
+    "origin": {
+      "lat": 51.446325,
+      "lng": 5.45327
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 235,
+    "distanceInMeters": 1202
+  },
+  {
+    "origin": {
+      "lat": 51.441701,
+      "lng": 5.480412
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 580,
+    "distanceInMeters": 3190
+  },
+  {
+    "origin": {
+      "lat": 51.440091,
+      "lng": 5.480412
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 890,
+    "distanceInMeters": 6325
+  },
+  {
+    "origin": {
+      "lat": 51.431704,
+      "lng": 5.485379
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 548,
+    "distanceInMeters": 4069
+  },
+  {
+    "origin": {
+      "lat": 51.448236,
+      "lng": 5.448374
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 293,
+    "distanceInMeters": 1368
+  },
+  {
+    "origin": {
+      "lat": 61.271044,
+      "lng": 11.301653
+    },
+    "destination": {
+      "lat": 51.441556,
+      "lng": 5.450361
+    },
+    "timeInSeconds": 58961,
+    "distanceInMeters": 1476159
+  }
+]

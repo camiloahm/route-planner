@@ -1,0 +1,26 @@
+{
+  "destination_addresses": [
+    "Fabrykswei 2, 8734 HV Easterein, Netherlands"
+  ],
+  "origin_addresses": [
+    "It Risplân 3, 8734 HT Easterein, Netherlands"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "distance": {
+            "text": "1.3 km",
+            "value": 1266
+          },
+          "duration": {
+            "text": "4 mins",
+            "value": 239
+          },
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "status": "OK"
+}

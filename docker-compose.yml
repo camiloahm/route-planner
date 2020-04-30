@@ -1,0 +1,19 @@
+version: '2.1'
+
+services:
+  mongodb:
+
+    # always use the same MongoDB version that will be used in production
+    image: mongo:4.0
+    container_name: "local-routeplanner-mongodb"
+    ports:
+    - 27017:27017
+  statsd:
+    image: graphiteapp/graphite-statsd
+    container_name: "local-routeplanner-statsd"
+    ports:
+    - 80:80
+    - 2003-2004:2003-2004
+    - 2023-2024:2023-2024
+    - 8125:8125/udp
+    - 8126:8126
